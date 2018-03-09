@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 30px;
+  font-family: 'Lato', serif;
+  font-weight: 100;
+  font-size: 25px;
+  color: #888;
+}
+
+.general-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#close {
+  cursor: pointer;
+  color: #fff;
+}
+
+#open {
+  cursor: pointer;
+  color: #ddd;
+  position: fixed;
+  top: 98px;
+  left: -7px;
+}
+
+#close {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.side {
+  width: 300px;
+  min-height: 100%;
+  background: linear-gradient(to right, #fff, #ddd);
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  transform: translate(-330px, 0);
+  transition: transform 0.3s ease;
+}
+
+.side.open {
+  position: fixed;
+  top: 0;
+  transform: translate(-1px, 0);
+}
+
+.menu-header {
+  font-style: oblique;
+}
+
+.list li:hover {
+  cursor: pointer;
+  font-weight: bold;
+  color: #f00;
+}
+
+.list {
+  padding: 0;
+}
+
+.list li {
+  list-style:none;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+}
+
+.logo {
+  width: 20%;
+  margin-bottom: 5px;
+}
+
+.headline {
+  width: 80%;
+  text-align: right;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px #888;
+}
+
+.head-text {
+  margin: 5px 0 5px 0;
+}
+
+.long-prj-header {
+  display: none;
+}
+
+.horizontal-rule {
+  width: 100%;
+  height: 2px;
+  background-color: #bcbbbb;
+  border: none;
+}
+
+.main-container {
+  width: 100%;
+}
+
+.main-picture {
+  max-width: 100%;
+  margin: 15px 0 15px 0;
+}
+
+.projects-showcase {
+  color: #aaa;
+}
+
+.top-showcase,
+.bottom-showcase {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.top-showcase {
+  flex-wrap: wrap;
+}
+
+.project-box {
+  max-width: 32%;
+}
+
+.project-image {
+  transition: 0.3s ease-in-out;
+  transform: scale(1);
+}
+
+.zoom-mask:hover img {
+  transform: scale(1.1);
+}
+
+.zoom-mask {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  overflow: hidden;
+}
+
+.project-box img{
+  max-width: 100%;
+}
+
+.projects-header {
+  margin: 10px 0 5px 0;
+}
+
+.project-name {
+  text-align: center;
+  margin: 5px 0;
+  text-transform: uppercase;
+  color: #555;
+}
+
+.project-link {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.footer {
+  margin-top: 20px;
+  width: 100%;
+  text-align: right;
+  background-color: #ccc;
+  color: #fff;
+}
+
+.list a,
+.social a,
+.footer a {
+  color: inherit;
+  text-decoration: none;
+}
+
+svg {
+  margin: 10px;
+}
