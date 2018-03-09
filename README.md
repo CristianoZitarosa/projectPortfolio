@@ -18,4 +18,4 @@ To fit its content to Nexus 5, iPad and desktop screens.
 
 ### License:
 #### No License<br>
-_**Meaning**: Unless you include a license that specifies otherwise, nobody else can use, copy, distribute, or modify your work without being at risk of take-downs, shake-downs, or litigation._
+_**Meaning of "No License"**: Unless you include a license that specifies otherwise, nobody else can use, copy, distribute, or modify your work without being at risk of take-downs, shake-downs, or litigation._
